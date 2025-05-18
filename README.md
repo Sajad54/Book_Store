@@ -49,7 +49,6 @@ Open `index.html` in your preferred web browser to explore the site.
 
 ## ✨ Future Improvements
 
-- Add search functionality and filtering options
 - Integrate a backend for inventory and user management
 - Add animations and interactive features
 
