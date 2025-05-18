@@ -87,7 +87,8 @@ p {
 /* Link Styles */
 a {  
     display: block;
-    text-decoration: none; /* removes underlining from the links */
+    
+    color: #ffffff;
 }
 
 a:hover {
