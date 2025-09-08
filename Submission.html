@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The WayStation Library</title>
+    <link href="Submission_Styles.css" rel="stylesheet" />
+    <script src="Sub.Js"></script>
+  </head>
+  <body>
+    <body>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Rec.html">Recommendations</a></li>
+            <li><a href="Submission.html">Requests</a></li>
+            <li><a href="resume.html"> Meet The Owner</a></li>
+          </ul>
+        </nav>
+        <div class="container">
+            <h1 style="text-align: center; font-weight: bold;;">Give Us Your Recommendations!</h1>
+            <div class="webform-container">
+                <form action="#" method="post">
+                    <label for="nameBox">Name*</label>
+                    <input type="text" id="nameBox" name="userName" required placeholder="First and Last Name">
+                
+                    <label for="ageBox">Age</label>
+                    <input type="number" id="ageBox" name="userAge" min="10" max="99">
+                
+                    <label for="emailBox">Email*</label>
+                    <input type="email" id="emailBox" name="userEmail" required placeholder="example@gmail.com"
+                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+                
+                    <label for="book_name">Book Name/Series*</label>
+                    <input type="text" id="book_name" name="bookName" required>
+                
+                    <label for="book_description">Describe the Book*</label>
+                    <textarea id="book_description" name="bookDesc" rows="4" required></textarea>
+                
+                    <label for="expFactor">Escapism Factor (1-10)*</label>
+                    <input type="number" id="expFactor" name="escapism_factor" min="1" max="10" value="5" required>
+        
+                    <div class="button-container">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>&copy; The WayStation Library.</footer>
+  </body>

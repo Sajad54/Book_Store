@@ -1,0 +1,109 @@
+@charset "UTF-8";
+html{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif; /* setting font family for the webpage */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 244, 244);
+    background-image: url(Image1.jpeg); /*setting the background image of the webpage */
+    
+}
+
+/* Container and section styles */
+
+.container { /* css style rules for the div container that encapsulated the sections */
+    max-width: 960px; /* Max width for the container */
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* setting the gap between each section */
+    background-color: rgb(225, 225, 225); /*background color for the div container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(65% - 20px); /* 50% width with 20px gap between sections */
+}
+
+section { /*style rules to give each section its own box */
+    background-color: rgba(184, 181, 181, 0.382); /*sets background color for the sections */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(80% - 10px); /* 50% width with 20px gap between sections */
+}
+
+
+/*header and footer styles */
+header, footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+h3#school {
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center; /* aligns the h2 element to the center of the page */
+    color: rgb(0, 5, 162);
+}
+
+header  {
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+}
+
+header p {
+    line-height: 22px;
+}
+
+/* hr, list and paragraph styles */
+
+hr {
+    border: 1px solid rgb(0, 0, 0); /* creates a border for the line break */
+    margin: 5px; /*adds a 5px margin to the line */
+}
+
+ul {
+    padding-left: 20px; /* adds 20px padding to the left of the ul elements */
+}
+
+p {
+    margin: 5px; /* adds a 5px margin to the p elements */
+    line-height: 30px; /* adds 30px line height to the p elements */
+}
+
+
+/* Link Styles */
+a {  
+    display: block;
+    
+    color: #ffffff;
+}
+
+a:hover {
+    color: rgb(80, 80, 234); /*sets color when you hover over links */
+}
+
+a:active {
+    color: rgb(128, 0, 128); /* sets color of active links */
+}
+
+/* Image Style */
+img {
+    width:30vmin; 
+    height:25vmin; 
+    border-radius:50%; /* Formatting for image */
+    margin-left: auto;
+    margin-right: auto;
+}
